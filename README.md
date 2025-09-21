@@ -5,18 +5,11 @@ This repository contains a portfolio of programming projects including coursewor
 - PHP / MySQL
 - HTML, CSS, JavaScript
 
-## Projects
-
-### 1. Mileage Claim Service
-- **Technologies:** Kotlin, Java, SQL
-- **Description:** A service to manage mileage claims. Including CRUD operations and user authentication.
-- **Notes:** This project is a work in progress. This project is currently in the documentation phase.
-
-### 2. Customer Management System
+### Customer Management System
 - **Technologies:** PHP, MySQL, HTML, CSS, JavaScript
 - **Description:** Allows adding, amending, deleting customers and managing bookings.
 - **Setup Instructions:**  
-  1. Download [XAMPP](https://www.apachefriends.org/index.html) or another PHP server.  
+  1. Download MySQL Workbench (https://www.mysql.com/products/workbench/) or another PHP server.  
   2. Place project folder name in server root .  
   3. Access via `http://localhost/yourfoldername/`.  
   4. Use `db.inc.php` to configure database connection.  
