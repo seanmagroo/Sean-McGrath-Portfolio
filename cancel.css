@@ -1,0 +1,113 @@
+/* Setting default styles and font */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the header */
+header {
+    text-align: center;
+    background-color: #808080;
+    color: #072149;
+    padding: 20px 0;
+    font-family: monospace;
+}
+
+/* Styling for the navigation */
+nav {
+    background-color: #072149;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+nav a:hover {
+    background-color: #0a2d61;
+    padding: 8px 15px;
+}
+
+/* Styling for the main content */
+main {
+    padding: 20px;
+}
+
+/* Styling for the form to select a date */
+form {
+    margin-bottom: 20px;
+}
+
+/* Styling for the table displaying bookings */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #072149;
+    color: #fff;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+td input[type="checkbox"] {
+    margin: 0;
+}
+
+/* Styling for buttons */
+button {
+    background-color: #28a745; /* Green color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838; /* Darker shade of green on hover */
+}
+
+/* Styling for the footer */
+footer {
+    background-color: #808080;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Styling for the logo */
+.logo {
+    height: 120px;
+    width: 350px;
+}
