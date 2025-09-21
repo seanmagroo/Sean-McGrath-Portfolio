@@ -1,0 +1,120 @@
+/*Setting default styles and font */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the header */
+header {
+    text-align: center;
+    background-color: #808080;
+    color: #072149;
+    padding: 20px 0;
+    font-family: monospace;
+}
+
+/* Styling for the navigation */
+nav {
+    background-color: #072149;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+nav a:hover {
+    background-color: #0a2d61;
+    padding: 8px 15px;
+}
+
+/* Styling for the main content */
+main {
+    padding: 20px;
+}
+
+.customer-info-container {
+    width: 100%; /* Container spans full width */
+    margin: 0; /* Remove any margin */
+    padding: 8px 0; /* Adjust padding to your preference */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+.customer-info-container label {
+    display: block; /* Ensures label is on a separate line */
+    margin-bottom: 5px; /* Space between label and input */
+}
+
+.customer-info-container input[type="text"] {
+    width: 100%; /* Input spans full width of the container */
+    padding: 8px; /* Add padding inside the input */
+    box-sizing: border-box; /* Include padding in width */
+    font-size: 16px; /* Adjust font size */
+}
+
+/* Styling for form input groups */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.button-group {
+    text-align: left;
+}
+
+/* Styling for the confirmation button */
+.confirm {
+    background-color: #28a745; /* Green color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.confirm:hover {
+    background-color: #218838; /* Darker shade of green on hover */
+}
+
+/* Styling for the reset button */
+.reset {
+    background-color: #dc3545; /* Red color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.reset:hover {
+    background-color: #c82333; /* Darker shade of red on hover */
+}
+
+/* Styling for the footer */
+footer {
+    background-color: #808080;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Styling for the logo */
+.logo {
+    height: 120px;
+    width: 350px;
+}
