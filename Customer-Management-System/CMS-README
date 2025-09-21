@@ -1,0 +1,16 @@
+# Customer Management System
+This repository contains my portion of the groupwork associated with the Customer Management System.
+
+As previously mentioned, here are the details for this project: 
+
+Customer Management System
+Technologies: PHP, MySQL, HTML, CSS, JavaScript
+Description: Allows adding, amending, deleting customers and managing bookings.
+Setup Instructions:
+Download XAMPP or another PHP server.
+Place project folder name in server root .
+Access via http://localhost/yourfoldername/.
+Use db.inc.php to configure database connection.
+Notes
+PHP project requires local server to run. It will not execute correctly if opened directly in a browser and will cause raw PHP code to appear on screen instead.
+This Project was originally a collaboration with fellow students. The included files contain my portion of work contributed to this collaboration.
